@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'bold';
+    src: url('../fonts/GothamPro-Bold.eot');
+    src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GothamPro-Bold.woff') format('woff'),
+    url('../fonts/GothamPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'drugs';
+	src: url('../fonts/TTDrugs-Thin.eot');
+	src: local('../fonts/TT Drugs Thin'), local('TTDrugs-Thin'),
+		url('../fonts/TTDrugs-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TTDrugs-Thin.woff') format('woff'),
+		url('../fonts/TTDrugs-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}

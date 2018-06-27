@@ -1,0 +1,64 @@
+.container{
+	max-width: 1000px;
+	padding: 0 15px;
+	width: 100%;
+	margin: 0 auto;
+	&__big{
+		max-width: 1280px;
+	}
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::selection {
+    background: $color-red;
+    color: $color-white;
+}
+
+::-moz-selection {
+    background: $color-red;
+    color: $color-white;
+}
+
+::-webkit-scrollbar {
+    background: 0 0;
+    width: 2px;
+    height: 2px
+}
+
+::-webkit-scrollbar-track {
+    background: $color-background;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $color-red;
+    opacity: 1;
+    border-radius: 3px
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family: 'drugs';
+	background-color: $color-background;
+	color: $color-white;
+	background-image: url(../images/top.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center 0;
+	height: 100%;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+a,.button{
+	text-decoration: none;
+	&:focus{
+		outline: none;
+	}
+}

@@ -1,0 +1,41 @@
+.hello{
+    paddding: 50px 0;
+    &-first{
+        font-size: 18px;
+        color: $color-white;
+        line-height: 1em;
+    }
+    &-second{
+        h1{
+            line-height: 1em;
+            font-size: 95px;
+            color: $color-white;
+            font-family: 'bold';
+            text-transform: uppercase;
+            margin: 15px 0;
+            letter-spacing: 10px;
+            margin-left: -5px;
+        }
+    }
+    &-third{
+        font-size: 18px;
+        color: $color-red;
+        padding: 20px 0 20px 50px;
+        position: relative;
+        margin-left: -10px;
+        &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 34px;
+            height: 34px;
+            background-size: 34px 34px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            @include transform(translateY(-50%));
+            background-image: url(../images/header-icon.png);
+        }
+    }
+}

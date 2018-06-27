@@ -1,0 +1,63 @@
+.section__resume{
+    padding: 50px 0;
+}
+
+.resume{
+    font-size: 0;
+    &-face{
+        display: inline-block;
+        vertical-align: top;
+        width: 35%;
+        text-align: center;
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+        & + .resume-info{
+            width: 65%;
+            padding-left: 40px;
+        }
+    }
+    &-info{
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        max-width: 530px;
+    }
+    &-items{
+        margin: 30px -5px;
+        padding: 25px 0;
+        border-top: 1px solid $color-social-text;
+    }
+    &-item{
+        padding: 5px;
+        font-size: 0;
+        width: 100%;
+        max-width: 220px;
+        display: inline-block;
+        vertical-align: top;
+        &-label,
+        &-value{
+            display: inline-block;
+            vertical-align: top;
+            font-size: 16px;
+        }
+        &-label{
+            color: $color-white;
+            width: 100%;
+            max-width: 135px;
+            text-transform: uppercase;
+            padding-right: 10px;
+        }
+        &-value{
+            color: $color-social-text;
+        }
+    }
+    &-buttons{
+        margin: 0 -10px;
+        text-align: left;
+        .button{
+            margin-right: 20px;
+        }
+    }
+}
